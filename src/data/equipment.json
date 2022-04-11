@@ -1,0 +1,134 @@
+[
+  {
+    "name": "dots-projector",
+    "cost": 65,
+    "default-quantity": 1,
+    "max-quantity": 2
+  },
+  {
+    "name": "emf-reader",
+    "cost": 45,
+    "default-quantity": 1,
+    "max-quantity": 2
+  },
+  {
+    "name": "flashlight",
+    "cost": 30,
+    "default-quantity": 1,
+    "max-quantity": 4
+  },
+  {
+    "name": "photo-camera",
+    "cost": 40,
+    "default-quantity": 1,
+    "max-quantity": 3
+  },
+  {
+    "name": "lighter",
+    "cost": 10,
+    "default-quantity": 0,
+    "max-quantity": 2
+  },
+  {
+    "name": "candle",
+    "cost": 15,
+    "default-quantity": 0,
+    "max-quantity": 4
+  },
+  {
+    "name": "uv-flashlight",
+    "cost": 35,
+    "default-quantity": 1,
+    "max-quantity": 2
+  },
+  {
+    "name": "crucifix",
+    "cost": 30,
+    "default-quantity": 0,
+    "max-quantity": 2
+  },
+  {
+    "name": "video-camera",
+    "cost": 50,
+    "default-quantity": 1,
+    "max-quantity": 6
+  },
+  {
+    "name": "spirit-box",
+    "cost": 50,
+    "default-quantity": 1,
+    "max-quantity": 2
+  },
+  {
+    "name": "salt-shaker",
+    "cost": 15,
+    "default-quantity": 0,
+    "max-quantity": 2
+  },
+  {
+    "name": "smudge-sticks",
+    "cost": 15,
+    "default-quantity": 0,
+    "max-quantity": 4
+  },
+  {
+    "name": "tripod",
+    "cost": 25,
+    "default-quantity": 0,
+    "max-quantity": 5
+  },
+  {
+    "name": "strong-flashlight",
+    "cost": 50,
+    "default-quantity": 0,
+    "max-quantity": 4
+  },
+  {
+    "name": "motion-sensor",
+    "cost": 100,
+    "default-quantity": 0,
+    "max-quantity": 4
+  },
+  {
+    "name": "sound-sensor",
+    "cost": 80,
+    "default-quantity": 0,
+    "max-quantity": 4
+  },
+  {
+    "name": "sanity-pills",
+    "cost": 20,
+    "default-quantity": 0,
+    "max-quantity": 4
+  },
+  {
+    "name": "thermometer",
+    "cost": 30,
+    "default-quantity": 0,
+    "max-quantity": 3
+  },
+  {
+    "name": "ghost-writing-book",
+    "cost": 40,
+    "default-quantity": 1,
+    "max-quantity": 2
+  },
+  {
+    "name": "parabolic-microphone",
+    "cost": 50,
+    "default-quantity": 0,
+    "max-quantity": 2
+  },
+  {
+    "name": "glowstick",
+    "cost": 20,
+    "default-quantity": 0,
+    "max-quantity": 2
+  },
+  {
+    "name": "head-mounted-camera",
+    "cost": 60,
+    "default-quantity": 0,
+    "max-quantity": 4
+  }
+]
