@@ -1,134 +1,134 @@
 [
   {
-    "name": "dots-projector",
+    "name": "dotsProjector",
     "cost": 65,
-    "default-quantity": 1,
-    "max-quantity": 2
+    "defaultQuantity": 1,
+    "maxQuantity": 2
   },
   {
-    "name": "emf-reader",
+    "name": "emfReader",
     "cost": 45,
-    "default-quantity": 1,
-    "max-quantity": 2
+    "defaultQuantity": 1,
+    "maxQuantity": 2
   },
   {
     "name": "flashlight",
     "cost": 30,
-    "default-quantity": 1,
-    "max-quantity": 4
+    "defaultQuantity": 1,
+    "maxQuantity": 4
   },
   {
-    "name": "photo-camera",
+    "name": "photoCamera",
     "cost": 40,
-    "default-quantity": 1,
-    "max-quantity": 3
+    "defaultQuantity": 1,
+    "maxQuantity": 3
   },
   {
     "name": "lighter",
     "cost": 10,
-    "default-quantity": 0,
-    "max-quantity": 2
+    "defaultQuantity": 0,
+    "maxQuantity": 2
   },
   {
     "name": "candle",
     "cost": 15,
-    "default-quantity": 0,
-    "max-quantity": 4
+    "defaultQuantity": 0,
+    "maxQuantity": 4
   },
   {
-    "name": "uv-flashlight",
+    "name": "uvFlashlight",
     "cost": 35,
-    "default-quantity": 1,
-    "max-quantity": 2
+    "defaultQuantity": 1,
+    "maxQuantity": 2
   },
   {
     "name": "crucifix",
     "cost": 30,
-    "default-quantity": 0,
-    "max-quantity": 2
+    "defaultQuantity": 0,
+    "maxQuantity": 2
   },
   {
-    "name": "video-camera",
+    "name": "videoCamera",
     "cost": 50,
-    "default-quantity": 1,
-    "max-quantity": 6
+    "defaultQuantity": 1,
+    "maxQuantity": 6
   },
   {
-    "name": "spirit-box",
+    "name": "spiritBox",
     "cost": 50,
-    "default-quantity": 1,
-    "max-quantity": 2
+    "defaultQuantity": 1,
+    "maxQuantity": 2
   },
   {
-    "name": "salt-shaker",
+    "name": "saltShaker",
     "cost": 15,
-    "default-quantity": 0,
-    "max-quantity": 2
+    "defaultQuantity": 0,
+    "maxQuantity": 2
   },
   {
-    "name": "smudge-sticks",
+    "name": "smudgeSticks",
     "cost": 15,
-    "default-quantity": 0,
-    "max-quantity": 4
+    "defaultQuantity": 0,
+    "maxQuantity": 4
   },
   {
     "name": "tripod",
     "cost": 25,
-    "default-quantity": 0,
-    "max-quantity": 5
+    "defaultQuantity": 0,
+    "maxQuantity": 5
   },
   {
-    "name": "strong-flashlight",
+    "name": "strongFlashlight",
     "cost": 50,
-    "default-quantity": 0,
-    "max-quantity": 4
+    "defaultQuantity": 0,
+    "maxQuantity": 4
   },
   {
-    "name": "motion-sensor",
+    "name": "motionSensor",
     "cost": 100,
-    "default-quantity": 0,
-    "max-quantity": 4
+    "defaultQuantity": 0,
+    "maxQuantity": 4
   },
   {
-    "name": "sound-sensor",
+    "name": "soundSensor",
     "cost": 80,
-    "default-quantity": 0,
-    "max-quantity": 4
+    "defaultQuantity": 0,
+    "maxQuantity": 4
   },
   {
-    "name": "sanity-pills",
+    "name": "sanityPills",
     "cost": 20,
-    "default-quantity": 0,
-    "max-quantity": 4
+    "defaultQuantity": 0,
+    "maxQuantity": 4
   },
   {
     "name": "thermometer",
     "cost": 30,
-    "default-quantity": 0,
-    "max-quantity": 3
+    "defaultQuantity": 0,
+    "maxQuantity": 3
   },
   {
-    "name": "ghost-writing-book",
+    "name": "ghostWritingBook",
     "cost": 40,
-    "default-quantity": 1,
-    "max-quantity": 2
+    "defaultQuantity": 1,
+    "maxQuantity": 2
   },
   {
-    "name": "parabolic-microphone",
+    "name": "parabolicMicrophone",
     "cost": 50,
-    "default-quantity": 0,
-    "max-quantity": 2
+    "defaultQuantity": 0,
+    "maxQuantity": 2
   },
   {
     "name": "glowstick",
     "cost": 20,
-    "default-quantity": 0,
-    "max-quantity": 2
+    "defaultQuantity": 0,
+    "maxQuantity": 2
   },
   {
-    "name": "head-mounted-camera",
+    "name": "headMountedCamera",
     "cost": 60,
-    "default-quantity": 0,
-    "max-quantity": 4
+    "defaultQuantity": 0,
+    "maxQuantity": 4
   }
 ]
