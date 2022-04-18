@@ -2,17 +2,43 @@ import React from "react";
 import "./App.css";
 
 import { player, PlayerList } from "./components/PlayerList";
+import { PlayerManager } from "./components/PlayerManager";
 
 import equipmentData, { equipment } from "./data/equipmentImporter";
 import loadouts from "./data/loadoutImporter";
 
 function App() {
-  const [players, setPlayers] = React.useState<player[]>([
-    { name: "austin", assignedItems: [], assignedCost: 0 },
-    { name: "tyree", assignedItems: [], assignedCost: 0 },
-    { name: "joseph", assignedItems: [], assignedCost: 0 },
-    { name: "jonathan", assignedItems: [], assignedCost: 0 },
-  ]);
+  const [players, setPlayers] = React.useState<player[]>([]);
+
+  function addPlayer(playerName: string) {
+    const newPlayer = {
+      name: playerName,
+      assignedItems: [],
+      assignedCost: 0,
+    };
+
+    setPlayers((prevPlayers) => [...prevPlayers, newPlayer]);
+  }
+
+  function removePlayer(playerName: string) {
+    const remainingPlayers = players.filter(
+      (player) => player.name !== playerName
+    );
+
+    setPlayers(remainingPlayers);
+  }
+
+  function resetAssignment(players: player[]) {
+    const resetPlayers = players.map((player) => {
+      return {
+        name: player.name,
+        assignedItems: [],
+        assignedCost: 0,
+      };
+    });
+
+    return resetPlayers;
+  }
 
   const defaultLoadout = loadouts[0].equipment;
 
@@ -20,7 +46,7 @@ function App() {
     return item.cost * defaultLoadout[item.name];
   }
 
-  function assignEquipment(
+  function assignItem(
     item: equipment,
     targetPlayer: player,
     currentPlayers: player[]
@@ -46,17 +72,24 @@ function App() {
     return [...otherPlayers, newPlayer];
   }
 
-  React.useEffect(() => {
+  function assignItems() {
+    const resetPlayers = resetAssignment(players);
     const playersWithItemsAssigned = equipmentData.reduce((acc, item) => {
       acc.sort((a, b) => a.assignedCost - b.assignedCost);
-      return assignEquipment(item, acc[0], acc);
-    }, players);
+      return assignItem(item, acc[0], acc);
+    }, resetPlayers as player[]);
 
     setPlayers(playersWithItemsAssigned);
-  }, []);
+  }
 
   return (
     <div className="App">
+      <PlayerManager
+        playerNames={players.map((player) => player.name)}
+        addPlayer={addPlayer}
+        removePlayer={removePlayer}
+      />
+      <button onClick={assignItems}>Assign Items</button>
       <PlayerList players={players} />
     </div>
   );
