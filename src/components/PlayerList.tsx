@@ -1,4 +1,5 @@
 import * as React from "react";
+import styled from "styled-components";
 
 import { equipment } from "../data/equipmentImporter";
 import loadouts from "../data/loadoutImporter";
@@ -13,13 +14,17 @@ export interface PlayerListProps {
   players: player[];
 }
 
+const StyledPlayerList = styled.div`
+  width: 600px;
+`;
+
 export const PlayerList: React.FunctionComponent<PlayerListProps> = ({
   players,
 }: PlayerListProps) => {
   const defaultLoadout = loadouts[0].equipment;
 
   return (
-    <div>
+    <StyledPlayerList>
       {players.map((player) => (
         <div key={player.name}>
           <h2>{player.name}</h2>
@@ -37,6 +42,6 @@ export const PlayerList: React.FunctionComponent<PlayerListProps> = ({
           <p>Total cost: {player.assignedCost}</p>
         </div>
       ))}
-    </div>
+    </StyledPlayerList>
   );
 };

@@ -1,4 +1,9 @@
 import * as React from "react";
+import styled from "styled-components";
+
+const StyledPlayerManager = styled.div`
+  width: 400px;
+`;
 
 export interface PlayerManagerProps {
   playerNames: string[];
@@ -28,7 +33,7 @@ export const PlayerManager: React.FunctionComponent<PlayerManagerProps> = ({
   }
 
   return (
-    <div>
+    <StyledPlayerManager>
       <form onSubmit={handleSubmit}>
         <label>
           New player name:
@@ -42,6 +47,6 @@ export const PlayerManager: React.FunctionComponent<PlayerManagerProps> = ({
           <button onClick={() => removePlayer(player)}>x</button>
         </div>
       ))}
-    </div>
+    </StyledPlayerManager>
   );
 };
