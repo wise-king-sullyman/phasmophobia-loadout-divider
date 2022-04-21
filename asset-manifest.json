@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.b04af4f9.js",
-    "static/js/787.2cd9540c.chunk.js": "/static/js/787.2cd9540c.chunk.js",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.b04af4f9.js.map": "/static/js/main.b04af4f9.js.map",
-    "787.2cd9540c.chunk.js.map": "/static/js/787.2cd9540c.chunk.js.map"
+    "main.css": "/phasmophobia-loadout-divider/static/css/main.073c9b0a.css",
+    "main.js": "/phasmophobia-loadout-divider/static/js/main.37088aef.js",
+    "static/js/787.2cd9540c.chunk.js": "/phasmophobia-loadout-divider/static/js/787.2cd9540c.chunk.js",
+    "index.html": "/phasmophobia-loadout-divider/index.html",
+    "main.073c9b0a.css.map": "/phasmophobia-loadout-divider/static/css/main.073c9b0a.css.map",
+    "main.37088aef.js.map": "/phasmophobia-loadout-divider/static/js/main.37088aef.js.map",
+    "787.2cd9540c.chunk.js.map": "/phasmophobia-loadout-divider/static/js/787.2cd9540c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.b04af4f9.js"
+    "static/js/main.37088aef.js"
   ]
 }
